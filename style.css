@@ -5,9 +5,65 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
-
-
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
 }
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 27px 0px;
+  font-size: 26px;
+  width: 24%;
+}
+/* Tab lerin üzerine gelince renk değiştirilmesini sağlıyor */
+.tablink:hover {
+  background-color: #777;
+}
+
+  /* display i silince sayfa ilk açıldığında ekranda swap kısmı oluyor*/
+  .tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+/* Tab in yukarı olan konumu*/
+
+.tablink {
+	border-bottom:0px solid #ddd;
+  margin: 25px 0 0;
+}
+
+
+
+/* Tablerin içindeki yazının şekli, zaten yukarı aldım..
+.tablink  {
+	font-family: 'Source Sans Pro';
+	font-size:1.65em;
+	font-weight:300;
+  transition:.2s;
+  color:white;
+}
+*/
+
+/*  Tablerin boyutunu değiştiriyor,zaten yukarı aldım
+.tablink {
+  font-size: 20px;
+	width:33%;
+	padding: 15px 0 5px;
+  color:white;
+}
+ */
+
+
 
 h1,h2,h3,h4,h5,h6{
 
@@ -74,7 +130,7 @@ label{
     text-transform: capitalize;
     letter-spacing: 2px;
 		margin: 1em 0;
-		color:rgba(216, 171, 23, 0.99)	;
+		color:white	;
 		font-family: 'Roboto', sans-serif;
 }
 /*--/header---*/
@@ -90,7 +146,7 @@ label{
 }
 
 .bookinglefter-agile {
-    width: 35%;
+    width: 33%;
     float: left;
     background: rgba(16, 15, 15, 0.55);
     padding: 2em;
@@ -98,20 +154,20 @@ label{
 }
 
 .bookingleft-agile {
-    width: 35%;
+    width: 44%;
     float: left;
     background: rgba(16, 15, 15, 0.55);
     padding: 2em;
-		margin-left: 1%;
+		margin-left: 0.5%;
     box-sizing: border-box;
 }
 
 .bookingright-agile{
-	width: 25%;
+	width: 18%;
     float: left;
-    background: rgba(31, 24, 20, 0.43);
+    background: transparent;
     padding: 2em;
-    margin-left: 1%;
+    margin-left: 0.5%;
     box-sizing: border-box;
 }
 
@@ -385,7 +441,7 @@ input#quantity {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 2px;
-	color:rgba(216, 171, 23, 0.99);
+	color:white;
 	margin: 1em 0;
 	font-family: 'Raleway', sans-serif;
 
