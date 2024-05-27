@@ -3,6 +3,8 @@
 
 This project leverages the Ethereum Web3 API to create a user-centric interface that seamlessly connects with prominent DeFi protocols on the Ethereum blockchain. Users can perform various financial transactions directly through their Metamask wallets, eliminating the need for centralized platforms.
 
+![Home Page](/screenshots/home_page.png)
+
 ## Project Features
 
 * **Kyber Network Integration:**
